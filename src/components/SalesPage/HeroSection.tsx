@@ -1,22 +1,21 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Clock } from "lucide-react";
+import { ArrowRight } from "lucide-react";
+import heroCover from "@/assets/hero-cover.jpeg";
 
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center bg-gradient-hero overflow-hidden">
+      {/* Background image */}
+      <div 
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+        style={{ backgroundImage: `url(${heroCover})` }}
+      />
+      <div className="absolute inset-0 bg-background/80" />
+      
       {/* Background effects */}
-      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-accent/20 via-transparent to-transparent" />
-      <div className="absolute top-0 left-1/2 -translate-x-1/2 w-[800px] h-[600px] bg-accent/10 blur-[120px] rounded-full" />
+      <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-accent/10 via-transparent to-transparent" />
       
       <div className="container relative z-10 px-4 py-20 text-center">
-        {/* Urgency badge */}
-        <div className="inline-flex items-center gap-2 bg-destructive/20 border border-destructive/40 rounded-full px-4 py-2 mb-6 animate-pulse-slow">
-          <Clock className="w-4 h-4 text-destructive" />
-          <span className="text-sm font-medium text-destructive">
-            OFERTA LIMITADA - 70% DE DESCONTO HOJE
-          </span>
-        </div>
-
         {/* Main headline */}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-foreground leading-tight mb-6 max-w-4xl mx-auto">
           Faça Suas <span className="text-accent">Primeiras Vendas na Internet</span> em Até 7 Dias

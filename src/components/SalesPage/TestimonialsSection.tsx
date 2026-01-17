@@ -1,4 +1,32 @@
-import { MessageSquareQuote } from "lucide-react";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
+
+import proof1 from "@/assets/testimonials/proof-1.png";
+import proof2 from "@/assets/testimonials/proof-2.png";
+import proof3 from "@/assets/testimonials/proof-3.png";
+import proof4 from "@/assets/testimonials/proof-4.png";
+import proof5 from "@/assets/testimonials/proof-5.png";
+import proof6 from "@/assets/testimonials/proof-6.png";
+import proof7 from "@/assets/testimonials/proof-7.png";
+import proof8 from "@/assets/testimonials/proof-8.png";
+import proof9 from "@/assets/testimonials/proof-9.png";
+
+const testimonials = [
+  { id: 1, image: proof1 },
+  { id: 2, image: proof2 },
+  { id: 3, image: proof3 },
+  { id: 4, image: proof4 },
+  { id: 5, image: proof5 },
+  { id: 6, image: proof6 },
+  { id: 7, image: proof7 },
+  { id: 8, image: proof8 },
+  { id: 9, image: proof9 },
+];
 
 const TestimonialsSection = () => {
   return (
@@ -13,33 +41,34 @@ const TestimonialsSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-5xl mx-auto">
-          {[1, 2, 3].map((index) => (
-            <div
-              key={index}
-              className="relative p-6 rounded-2xl bg-card border border-border flex flex-col items-center justify-center min-h-[250px]"
-            >
-              <MessageSquareQuote className="w-12 h-12 text-muted-foreground/30 mb-4" />
-              <p className="text-center text-muted-foreground italic">
-                (Inserir prova social real aqui)
-              </p>
-              <div className="mt-4 pt-4 border-t border-border w-full">
-                <div className="flex items-center justify-center gap-3">
-                  <div className="w-10 h-10 rounded-full bg-muted flex items-center justify-center">
-                    <span className="text-xs text-muted-foreground">Foto</span>
+        <div className="max-w-5xl mx-auto px-12">
+          <Carousel
+            opts={{
+              align: "start",
+              loop: true,
+            }}
+            className="w-full"
+          >
+            <CarouselContent className="-ml-2 md:-ml-4">
+              {testimonials.map((testimonial) => (
+                <CarouselItem key={testimonial.id} className="pl-2 md:pl-4 basis-full sm:basis-1/2 lg:basis-1/3">
+                  <div className="relative rounded-2xl overflow-hidden border border-border bg-card shadow-lg">
+                    <img
+                      src={testimonial.image}
+                      alt={`Depoimento de aluno ${testimonial.id}`}
+                      className="w-full h-auto object-cover"
+                    />
                   </div>
-                  <div className="text-center">
-                    <p className="text-sm font-medium text-foreground">Nome do Aluno</p>
-                    <p className="text-xs text-muted-foreground">Resultado obtido</p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          ))}
+                </CarouselItem>
+              ))}
+            </CarouselContent>
+            <CarouselPrevious className="left-0" />
+            <CarouselNext className="right-0" />
+          </Carousel>
         </div>
 
         <p className="text-center text-sm text-muted-foreground mt-8">
-          ⚠️ Estes são espaços reservados para depoimentos reais dos alunos
+          Deslize para ver mais resultados reais dos nossos alunos →
         </p>
       </div>
     </section>
