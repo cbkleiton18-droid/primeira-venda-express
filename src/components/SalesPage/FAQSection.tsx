@@ -8,10 +8,6 @@ import {
 const FAQSection = () => {
   const faqs = [
     {
-      question: "Por quanto tempo terei acesso ao treinamento?",
-      answer: "O acesso é vitalício. Você poderá assistir às aulas quantas vezes quiser, para sempre, incluindo todas as atualizações futuras.",
-    },
-    {
       question: "Quanto tempo preciso dedicar por dia?",
       answer: "Recomendamos no mínimo 1 hora por dia para aplicar o método. Claro, quanto mais tempo você dedicar, mais rápido terá resultados.",
     },

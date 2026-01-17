@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight } from "lucide-react";
-import heroCover from "@/assets/hero-cover.jpeg";
+import arthurHero from "@/assets/arthur-hero.jpeg";
 
 const HeroSection = () => {
   return (
@@ -8,7 +8,7 @@ const HeroSection = () => {
       {/* Background image */}
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-        style={{ backgroundImage: `url(${heroCover})` }}
+        style={{ backgroundImage: `url(${arthurHero})` }}
       />
       <div className="absolute inset-0 bg-background/80" />
       
@@ -18,8 +18,12 @@ const HeroSection = () => {
       <div className="container relative z-10 px-4 py-20 text-center">
         {/* Main headline */}
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-black text-foreground leading-tight mb-6 max-w-4xl mx-auto">
-          Faça Suas <span className="text-accent">Primeiras Vendas na Internet</span> em Até 7 Dias
+          MJM - <span className="text-accent">Mentoria Jornada Milionária</span>
         </h1>
+
+        <p className="text-xl md:text-2xl text-foreground font-semibold mb-4">
+          Faça Suas Primeiras Vendas na Internet em Até 7 Dias
+        </p>
 
         {/* Subheadline */}
         <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto mb-8">
