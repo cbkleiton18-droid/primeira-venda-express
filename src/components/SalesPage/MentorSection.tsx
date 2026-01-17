@@ -1,0 +1,53 @@
+import { Quote } from "lucide-react";
+
+const MentorSection = () => {
+  return (
+    <section className="py-20 bg-secondary/30">
+      <div className="container px-4">
+        <div className="max-w-4xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            {/* Photo placeholder */}
+            <div className="relative">
+              <div className="aspect-square rounded-2xl bg-card border border-border flex items-center justify-center">
+                <p className="text-muted-foreground text-center p-8">
+                  (Inserir foto do mentor aqui)
+                </p>
+              </div>
+              {/* Decorative element */}
+              <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/20 rounded-2xl -z-10" />
+            </div>
+
+            {/* Story */}
+            <div>
+              <Quote className="w-10 h-10 text-accent mb-4" />
+              <h2 className="text-3xl font-bold text-foreground mb-6">
+                A História Por Trás do Método
+              </h2>
+              <div className="space-y-4 text-muted-foreground">
+                <p>
+                  Eu comecei como você: sem dinheiro, sem experiência e cheio de dúvidas sobre se era possível ganhar dinheiro na internet.
+                </p>
+                <p>
+                  Depois de muito estudo e tentativa e erro, descobri um método simples que me permitiu fazer minhas primeiras vendas online.
+                </p>
+                <p>
+                  Hoje, já ajudei mais de 50.000 pessoas a alcançarem seus primeiros resultados, gerando mais de R$10 milhões em vendas para os alunos.
+                </p>
+                <p className="text-foreground font-medium">
+                  Minha missão é provar que qualquer pessoa, de qualquer lugar, pode mudar de vida com as vendas online.
+                </p>
+              </div>
+
+              <div className="mt-6 pt-6 border-t border-border">
+                <p className="text-foreground font-semibold">(Nome do Mentor)</p>
+                <p className="text-sm text-muted-foreground">Fundador do Método</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+
+export default MentorSection;
