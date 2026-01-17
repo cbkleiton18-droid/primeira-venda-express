@@ -26,23 +26,23 @@ const OfferSection = () => {
             {/* Original price */}
             <p className="text-muted-foreground mb-2">De</p>
             <p className="text-3xl font-bold text-muted-foreground line-through mb-4">
-              R$ 497,00
+              R$ 897,00
             </p>
 
             {/* Promotional price */}
             <p className="text-accent font-semibold mb-2">Por apenas</p>
             <div className="flex items-baseline justify-center gap-1 mb-2">
               <span className="text-xl text-foreground">12x de</span>
-              <span className="text-5xl md:text-6xl font-black text-accent">R$12,42</span>
+              <span className="text-5xl md:text-6xl font-black text-accent">R$19,62</span>
             </div>
             <p className="text-muted-foreground mb-6">
-              ou <span className="text-foreground font-semibold">R$ 127,00</span> à vista
+              ou <span className="text-foreground font-semibold">R$ 197,00</span> à vista
             </p>
 
             {/* Savings highlight */}
             <div className="inline-block bg-green-500/10 border border-green-500/30 rounded-full px-4 py-2 mb-8">
               <span className="text-green-500 font-medium">
-                Você economiza R$ 370,00 hoje!
+                Você economiza R$ 700,00 hoje!
               </span>
             </div>
 

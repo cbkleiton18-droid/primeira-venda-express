@@ -1,4 +1,5 @@
 import { Quote } from "lucide-react";
+import arthurMentor from "@/assets/arthur-mentor.jpeg";
 
 const MentorSection = () => {
   return (
@@ -6,12 +7,14 @@ const MentorSection = () => {
       <div className="container px-4">
         <div className="max-w-4xl mx-auto">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-            {/* Photo placeholder */}
+            {/* Arthur's photo */}
             <div className="relative">
-              <div className="aspect-square rounded-2xl bg-card border border-border flex items-center justify-center">
-                <p className="text-muted-foreground text-center p-8">
-                  (Inserir foto do mentor aqui)
-                </p>
+              <div className="aspect-square rounded-2xl overflow-hidden">
+                <img 
+                  src={arthurMentor} 
+                  alt="Arthur Santos" 
+                  className="w-full h-full object-cover"
+                />
               </div>
               {/* Decorative element */}
               <div className="absolute -bottom-4 -right-4 w-24 h-24 bg-accent/20 rounded-2xl -z-10" />
@@ -39,8 +42,8 @@ const MentorSection = () => {
               </div>
 
               <div className="mt-6 pt-6 border-t border-border">
-                <p className="text-foreground font-semibold">(Nome do Mentor)</p>
-                <p className="text-sm text-muted-foreground">Fundador do Método</p>
+                <p className="text-foreground font-semibold">Arthur Santos</p>
+                <p className="text-sm text-muted-foreground">Fundador da MJM - Mentoria Jornada Milionária</p>
               </div>
             </div>
           </div>
