@@ -13,9 +13,11 @@ const FooterCTA = () => {
           O botão abaixo é o seu primeiro passo.
         </p>
         
-        <Button size="hero" className="group">
-          QUERO COMEÇAR AGORA
-          <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+        <Button size="hero" className="group" asChild>
+          <a href="https://api.whatsapp.com/message/P7RK3VSNND5EN1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">
+            AINDA TENHO DÚVIDAS
+            <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          </a>
         </Button>
 
         <footer className="mt-16 pt-8 border-t border-border">

@@ -32,9 +32,11 @@ const HeroSection = () => {
         </p>
 
         {/* CTA Button */}
-        <Button size="hero" className="group mb-6">
-          QUERO COMEÇAR AGORA
-          <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+        <Button size="hero" className="group mb-6" asChild>
+          <a href="https://pay.cakto.com.br/A5msHzH?affiliate=9wZc59rP" target="_blank" rel="noopener noreferrer">
+            QUERO COMEÇAR AGORA
+            <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
+          </a>
         </Button>
 
         {/* Trust elements */}
