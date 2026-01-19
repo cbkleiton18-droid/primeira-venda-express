@@ -36,7 +36,7 @@ const FooterCTA = () => {
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
               <Users className="w-5 h-5 text-accent" />
-              <span className="text-sm">+500 alunos</span>
+              <span className="text-sm">+50.000 alunos</span>
             </div>
             <div className="flex items-center gap-2 text-muted-foreground">
               <Zap className="w-5 h-5 text-accent" />
