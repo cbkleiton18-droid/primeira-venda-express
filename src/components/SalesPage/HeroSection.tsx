@@ -1,5 +1,4 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
 import arthurHero from "@/assets/arthur-hero.jpeg";
 
 const HeroSection = () => {
@@ -22,7 +21,7 @@ const HeroSection = () => {
         </h1>
 
         <p className="text-xl md:text-2xl text-foreground font-semibold mb-4">
-          Faça Suas Primeiras Vendas na Internet em Até 7 Dias
+          Receba estruturas prontas para fazer R$ 300 por dia ainda esta semana
         </p>
 
         {/* Subheadline */}
@@ -35,7 +34,6 @@ const HeroSection = () => {
         <Button size="hero" className="group mb-6" asChild>
           <a href="https://pay.cakto.com.br/A5msHzH?affiliate=9wZc59rP" target="_blank" rel="noopener noreferrer">
             QUERO COMEÇAR AGORA
-            <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </Button>
 
@@ -44,10 +42,6 @@ const HeroSection = () => {
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-green-500" />
             <span>Acesso Imediato</span>
-          </div>
-          <div className="flex items-center gap-2">
-            <div className="w-2 h-2 rounded-full bg-green-500" />
-            <span>Garantia de 30 Dias</span>
           </div>
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-green-500" />

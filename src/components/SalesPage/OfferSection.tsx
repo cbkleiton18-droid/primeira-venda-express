@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight, Shield, Clock } from "lucide-react";
+import { Shield, Clock } from "lucide-react";
 
 const OfferSection = () => {
   return (
@@ -47,10 +47,9 @@ const OfferSection = () => {
             </div>
 
             {/* CTA */}
-            <Button size="hero" className="w-full group mb-4" asChild>
+            <Button size="hero" className="w-full mb-4" asChild>
               <a href="https://pay.cakto.com.br/A5msHzH?affiliate=9wZc59rP" target="_blank" rel="noopener noreferrer">
                 QUERO GARANTIR MINHA VAGA
-                <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
 

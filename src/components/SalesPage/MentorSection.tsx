@@ -28,16 +28,16 @@ const MentorSection = () => {
               </h2>
               <div className="space-y-4 text-muted-foreground">
                 <p>
-                  Eu comecei como você: sem dinheiro, sem experiência e cheio de dúvidas sobre se era possível ganhar dinheiro na internet.
+                  Iniciei no digital em <span className="text-foreground font-semibold">2021, aos 16 anos</span>. Comecei como você: sem dinheiro, sem experiência e cheio de dúvidas sobre se era possível ganhar dinheiro na internet.
                 </p>
                 <p>
-                  Depois de muito estudo e tentativa e erro, descobri um método simples que me permitiu fazer minhas primeiras vendas online.
+                  Depois de muito estudo e tentativa e erro, descobri um método simples que me permitiu fazer minhas primeiras vendas online. Aos <span className="text-foreground font-semibold">19 anos, já havia faturado mais de R$2 milhões</span> no mercado digital.
                 </p>
                 <p>
-                  Hoje, já ajudei mais de 50.000 pessoas a alcançarem seus primeiros resultados, gerando mais de R$10 milhões em vendas para os alunos.
+                  Hoje, <span className="text-foreground font-semibold">aposentei meus pais</span> e vivo a verdadeira liberdade financeira. Já ajudei mais de 50.000 pessoas a alcançarem seus primeiros resultados, gerando mais de R$10 milhões em vendas para os alunos.
                 </p>
                 <p className="text-foreground font-medium">
-                  Minha missão é provar que qualquer pessoa, de qualquer lugar, pode mudar de vida com as vendas online.
+                  Minha missão é ajudar novas pessoas a entrarem no mercado digital e conquistarem sua liberdade financeira.
                 </p>
               </div>
 

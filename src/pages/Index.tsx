@@ -6,6 +6,7 @@ import ModulesSection from "@/components/SalesPage/ModulesSection";
 import MentorSection from "@/components/SalesPage/MentorSection";
 import MoreTestimonialsSection from "@/components/SalesPage/MoreTestimonialsSection";
 import QualificationSection from "@/components/SalesPage/QualificationSection";
+import ValueStackSection from "@/components/SalesPage/ValueStackSection";
 import OfferSection from "@/components/SalesPage/OfferSection";
 import GuaranteeSection from "@/components/SalesPage/GuaranteeSection";
 import FAQSection from "@/components/SalesPage/FAQSection";
@@ -22,7 +23,7 @@ const Index = () => {
       <MentorSection />
       <MoreTestimonialsSection />
       <QualificationSection />
-      <OfferSection />
+      <ValueStackSection />
       <GuaranteeSection />
       <FAQSection />
       <FooterCTA />
