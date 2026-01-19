@@ -67,9 +67,9 @@ const BenefitsSection = () => {
 
         {/* Daily cost highlight */}
         <div className="mt-12 text-center">
-          <div className="inline-block p-6 rounded-2xl bg-accent/10 border border-accent/30">
-            <p className="text-lg text-foreground">
-              Tudo isso por menos de <span className="text-accent font-bold text-2xl">R$1,00 por dia</span>
+          <div className="inline-block p-8 rounded-2xl bg-accent/10 border border-accent/30 max-w-3xl">
+            <p className="text-lg md:text-xl text-foreground leading-relaxed">
+              Mesmo custando menos de <span className="text-accent font-bold text-2xl">0,60 centavos por dia</span> eu vou te entregar muito conteúdo valioso e de qualidade inimaginável. Além do conteúdo completo de diversas formas de fazer renda na internet, um <span className="text-accent font-semibold">suporte personalizado comigo e minha equipe</span>.
             </p>
           </div>
         </div>

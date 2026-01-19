@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { ArrowRight } from "lucide-react";
+import { MessageCircle } from "lucide-react";
 
 const FooterCTA = () => {
   return (
@@ -13,10 +13,10 @@ const FooterCTA = () => {
           O botão abaixo é o seu primeiro passo.
         </p>
         
-        <Button size="hero" className="group" asChild>
+        <Button size="hero" asChild>
           <a href="https://api.whatsapp.com/message/P7RK3VSNND5EN1?autoload=1&app_absent=0" target="_blank" rel="noopener noreferrer">
+            <MessageCircle className="mr-2 w-5 h-5" />
             AINDA TENHO DÚVIDAS
-            <ArrowRight className="ml-2 w-5 h-5 group-hover:translate-x-1 transition-transform" />
           </a>
         </Button>
 

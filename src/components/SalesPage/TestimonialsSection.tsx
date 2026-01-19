@@ -47,6 +47,9 @@ const TestimonialsSection = () => {
               align: "start",
               loop: true,
             }}
+            plugins={[
+              require("embla-carousel-autoplay")({ delay: 3000, stopOnInteraction: false }),
+            ]}
             className="w-full"
           >
             <CarouselContent className="-ml-2 md:-ml-4">
