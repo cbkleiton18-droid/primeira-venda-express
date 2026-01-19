@@ -5,6 +5,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import Autoplay from "embla-carousel-autoplay";
 
 import proof10 from "@/assets/testimonials/proof-10.png";
 import proof11 from "@/assets/testimonials/proof-11.png";
@@ -34,7 +35,7 @@ const MoreTestimonialsSection = () => {
               loop: true,
             }}
             plugins={[
-              require("embla-carousel-autoplay")({ delay: 3000, stopOnInteraction: false }),
+              Autoplay({ delay: 3000, stopOnInteraction: false }),
             ]}
             className="w-full"
           >
