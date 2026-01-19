@@ -52,7 +52,7 @@ const ValueStackSection = () => {
               <p className="text-foreground mb-2">Leve tudo isso por apenas:</p>
               <div className="flex items-baseline justify-center gap-1 mb-2">
                 <span className="text-xl text-foreground">12x de</span>
-                <span className="text-5xl md:text-6xl font-black text-accent">R$19,62</span>
+                <span className="text-5xl md:text-6xl font-black text-accent">R$22,91</span>
               </div>
               <p className="text-muted-foreground mb-6">
                 ou <span className="text-foreground font-semibold">R$ 197,00</span> à vista
